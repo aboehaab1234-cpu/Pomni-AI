@@ -66,9 +66,16 @@ const uptimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).pad
             }))
         }];
 
-        const menuText = `
-رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ
-وَلَا تَجْعَلْ فِي قُلُوبِنَا غِلًّا لِّلَّذِينَ آمَنُوا رَبَّنَا إِنَّكَ رَءُوفٌ رَّحِيمٌ
+        const menuText =
+        *𓆩━━━━━━━━━━ ❄ ━━━━━━━━━━𓆪*
+> ┃ ⌯🔮︙الـبـوت → 𝑫𝑨𝑹𝑲 𝐁𝐎𝐓 🔱
+> ┃ ⌯🍃︙ 🩸نورت بوت دارك المقاتل ي قلبي 🩸
+> ┃ ⌯🎯︙ عدد الاوامر → 198 أمر
+> ┃ ⌯🎗︙حـالـه الـبـوت → مستقر
+> ┃ ⌯👨🏻‍💻︙الــمـطـور → 𝑫𝑨𝑹𝑲 𝑾𝑬𝑩 🍾
+*𓆩━━━━━━━━━━ ❄ ━━━━━━━━━━𓆪*
+> *إخـتـر الـقـسـم مـن الـزر بـالأسـفـل*
+𝑫𝑨𝑹𝑲 𝐁𝐎𝐓 🔱
 ╭─┈─┈─┈─⟞🎪⟝─┈─┈─┈─╮
 ┃ ⌯🍂︙ اهـلا → *[ @${m.sender.split("@")[0]} ]*
 ┃ ⌯🚀︙ الـتشـغـيـل → ${uptimeFormatted}
@@ -89,7 +96,7 @@ const uptimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).pad
             }],
             mentions: [m.sender],
             newsletter: {
-                name: '𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️',
+                name: '𝑫𝑨𝑹𝑲  ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️',
                 jid: '120363225356834044@newsletter'
             }
         }, global.reply_status);
@@ -120,7 +127,7 @@ const uptimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).pad
 ${cmdsList}
 
 ╭─┈─┈─┈─⟞${cat[3]}⟝─┈─┈─┈─╮
-┃ *⌯︙𝐕𝐈𝐈7 ~ ${bot?.config?.info?.nameBot || 'POMNI-AI'}*
+┃ *⌯︙𝑫𝑨𝑹𝑲  ~ ${bot?.config?.info?.nameBot || 'POMNI-AI'}*
 ╰─┈─┈─┈─⟞${cat[3]}⟝─┈─┈─┈─╯
 > *رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا*`.trim(), contextInfo: context(m.sender, getImg(bot)) }, { quoted: m });
 }
