@@ -42,7 +42,7 @@ const context = (jid, img) => ({
     isForwarded: true,
     forwardingScore: 1,
     forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363225356834044@newsletter',
+        newsletterJid: 'https://whatsapp.com/channel/0029Vb8UcDiLtOjLSeMjfo0S',
         newsletterName: '𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️',
         serverMessageId: 0
     },
@@ -126,5 +126,5 @@ ${cmdsList}
     return true;
 };
 
-menu.command = ['الاوامر', 'القائمة', 'menu', 'اوامر'];
+menu.command = ['الاوامر', 'القائمة', 'menu', اوامر.];
 export default menu;
